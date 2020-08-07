@@ -1,0 +1,38 @@
+server:
+  port: 8100
+spring:
+  application:
+    name: user
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.190.129:3308/changgou_user?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123456
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7100/eureka
+  instance:
+    prefer-ip-address: true
+feign:
+  hystrix:
+    enabled: true
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.anyu.tiangou.user.mdoel
+
+
+  pagehelper:
+    reasonable: true
+    helper-dialect: mysql
+    support-methods-arguments: true
+    params: count =countSql
+    page-size-zero: true
+
+
+  logging:
+    level:
+      com.anyu.tiangou.user.mapper: debug
+

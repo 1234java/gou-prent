@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gou-oath-serve" />
+        <module name="gou-goods-model-api" />
+        <module name="gou-goods-service" />
+        <module name="code-template" />
+        <module name="gou-base-eureka" />
+        <module name="gou-user-service" />
+        <module name="gou-common-core" />
+        <module name="gou-service-googs-api" />
+        <module name="gou-common-db" />
+        <module name="gou-service-user-api" />
+        <module name="gou-user-model-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="changgou-base" target="1.8" />
+      <module name="code-template" target="1.5" />
+      <module name="gou-base" target="1.8" />
+      <module name="gou-base-eureka" target="1.8" />
+      <module name="gou-common" target="1.8" />
+      <module name="gou-common-core" target="1.8" />
+      <module name="gou-common-db" target="1.8" />
+      <module name="gou-gateway" target="1.8" />
+      <module name="gou-goods-model-api" target="1.8" />
+      <module name="gou-goods-service" target="1.8" />
+      <module name="gou-mode-api" target="1.8" />
+      <module name="gou-oath-serve" target="1.8" />
+      <module name="gou-oauth-centre-serve" target="1.8" />
+      <module name="gou-prent" target="1.8" />
+      <module name="gou-service" target="1.8" />
+      <module name="gou-service-api" target="1.8" />
+      <module name="gou-service-googs-api" target="1.8" />
+      <module name="gou-service-user-api" target="1.8" />
+      <module name="gou-user-model-api" target="1.8" />
+      <module name="gou-user-service" target="1.8" />
+      <module name="gou-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="changgou-base" options="-parameters" />
+      <module name="gou-base" options="-parameters" />
+      <module name="gou-base-eureka" options="-parameters" />
+      <module name="gou-common-core" options="-parameters" />
+      <module name="gou-common-db" options="-parameters" />
+      <module name="gou-gateway" options="-parameters" />
+      <module name="gou-goods-model-api" options="-parameters" />
+      <module name="gou-goods-service" options="-parameters" />
+      <module name="gou-mode-api" options="-parameters" />
+      <module name="gou-oath-serve" options="-parameters" />
+      <module name="gou-oauth-centre-serve" options="-parameters" />
+      <module name="gou-service" options="-parameters" />
+      <module name="gou-service-api" options="-parameters" />
+      <module name="gou-service-googs-api" options="-parameters" />
+      <module name="gou-service-user-api" options="-parameters" />
+      <module name="gou-user-model-api" options="-parameters" />
+      <module name="gou-user-service" options="-parameters" />
+      <module name="gou-web" options="" />
+    </option>
+  </component>
+</project>
